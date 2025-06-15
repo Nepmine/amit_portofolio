@@ -36,3 +36,20 @@
     transform: rotate(360deg);
   }
 }
+
+
+/* --------------- After the first one ---------------------- */
+
+.fancy-scrollbar {
+  scrollbar-width: thin;
+  scrollbar-color: #f87171 transparent; /* red-400 */
+}
+
+.fancy-scrollbar::-webkit-scrollbar {
+  height: 8px;
+}
+
+.fancy-scrollbar::-webkit-scrollbar-thumb {
+  background-color: #f87171;
+  border-radius: 10px;
+}
