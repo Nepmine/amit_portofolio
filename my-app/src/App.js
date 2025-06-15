@@ -645,8 +645,25 @@ export default function AmitPortfolio() {
           <p className="text-gray-500 text-sm">
             Bridging cultures through words, connecting minds through stories.
           </p>
+
+          {/* [Updated] Subtle Credit with Smooth Underline */}
+          <div className="mt-6 animate-fade-up">
+            <p className="text-sm font-semibold text-gray-700">
+              Designed and Developed by{' '}
+              <a
+                href="https://github.com/Surajghimiredev"
+                className="text-red-600 underline-smooth"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Suraj Ghimire
+              </a>
+            </p>
+          </div>
         </div>
       </footer>
+
+
     </div>
   );
 }
